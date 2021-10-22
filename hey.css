@@ -1,0 +1,92 @@
+.first{
+
+    display: flex;
+}
+.vect1{
+    height: 63px;
+    width: 21.338661193847656px;
+    left: 45.861358642578125px;
+    top: 4.2001953125px;
+    border-radius: 0px;
+    margin-left: 172.2px;
+}
+.containers{
+    height: 3136px;
+    width: 1440px;
+    left: -383px;
+    top: 4259px;
+    border-radius: 0px;
+}
+
+.imglogo{
+height: 68px;
+width: 222.64517211914062px;
+left: 262px;
+top: 33px;
+border-radius: 0px;
+position: absolute;
+}
+
+.search{
+height: 36px;
+width: 300px;
+border-radius: 10px;
+padding: 8px;
+position: absolute;
+left: 759px;
+top: 56px;
+}
+
+.s_input{
+height: 22px;
+width: 256px;
+left: 36px;
+top: 7px;
+border-radius: nullpx;
+background: #FAFAFAED;
+}
+
+.start_photo::before{
+content: "";
+background: url(/imgs/Rectangle\ 283.png) no-repeat center center/cover;
+position: absolute;
+height: 495px;
+width: 1540px;
+left: 0px;
+top: 277px;
+border-radius: 0px;
+background-size: contain;
+}
+
+.aboutp{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.second_section{
+    height: 883px;
+    width: 1440px;
+    left: 0px;
+    top: 772px;
+    position: relative;
+    border: 2px solid black;
+}
+
+
+.second_section::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: url(/imgs/About\ Us.png);
+    height: 100vh;
+    width: 100%;
+    border-radius: 0px;
+    background-image: url(/imgs/About\ Us.png) no-repeat center center/cover;
+
+}
